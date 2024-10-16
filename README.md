@@ -1,3 +1,6 @@
+# taste_buds_recipe_finder
+Taste Buds is a recipe finder website utilizing DummyJSON API for the data.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
