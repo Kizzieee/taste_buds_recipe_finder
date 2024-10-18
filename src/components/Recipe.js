@@ -16,7 +16,7 @@ const Recipe = () => {
 
   return (
     <div>
-      <h2>Recipe List</h2>
+      {/* <h2>Recipe List</h2> */}
 
       <div className="grid-container recipes">
         {recipes.map((recipe) => (

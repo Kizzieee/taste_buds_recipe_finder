@@ -77,7 +77,10 @@ export default function RecipeModal(props) {
                 </div>
                 <div className="mb-2">
                   <span>Preptime: {props.prepTime} mins</span>
-                  <span className="ms-2">Cooktime: {props.cookTime} mins</span>
+                  <span className="ms-2">
+                    Cooktime: {props.cookTime}{" "}
+                    {props.cookTime < 1 ? "min" : "mins"}
+                  </span>
                   <span className="ms-2">
                     Servings: {props.servings}{" "}
                     {props.servings > 1 ? "people" : "person"}
